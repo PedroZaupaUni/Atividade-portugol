@@ -1,5 +1,11 @@
 programa {
   funcao inicio() {
-    
+real n1, n2, resultado
+escreva("Informe o primeiro valor para realizar a soma:")
+leia(n1)
+escreva("Informe o segundo valor para realizar a soma:")
+leia(n2)
+resultado=(n1+n2) 
+escreva("O resultado da soma é:", resultado)   
   }
 }
