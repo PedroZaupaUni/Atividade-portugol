@@ -1,5 +1,22 @@
 programa {
   funcao inicio() {
+      
+real n1, n2, resultado
+escreva("Informe o primeiro valor para realizar a soma:")
+leia(n1)
+escreva("Informe o segundo valor para realizar a soma:")
+leia(n2)
+resultado=(n1+n2) 
+escreva("O resultado da soma é:", resultado)   
+
+inteiro N1, N2, R
+    escreva("informe o primeiro numero: ")
+    leia (N1)
+    escreva("informe o segundo numero:")
+    leia (N2)
+    R = N1 - N2
+    escreva("O resultado da operação é: ", R)
+    
     inteiro n1,n2,n3
     escreva("Digite o primeiro valor a ser multiplicado: ")
     leia(n1)
@@ -7,5 +24,7 @@ programa {
     leia(n2)
     n3 = n1 * n2
     escreva("O resultado da multiplicação é: ",n3)
+
+    
   }
 }
