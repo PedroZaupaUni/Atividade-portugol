@@ -1,5 +1,6 @@
 programa {
   funcao inicio() {
+
 inteiro N1, N2, R
     escreva("informe o primeiro numero: ")
     leia (N1)
@@ -8,5 +9,12 @@ inteiro N1, N2, R
     R = N1 - N2
     escreva("O resultado da operação é: ", R)
     
+real n1, n2, resultado
+escreva("Informe o primeiro valor para realizar a soma:")
+leia(n1)
+escreva("Informe o segundo valor para realizar a soma:")
+leia(n2)
+resultado=(n1+n2) 
+escreva("O resultado da soma é:", resultado)   
   }
 }
